@@ -61,6 +61,7 @@ Critical (4) - Urgent, high-priority tasks
 
 ## Export Formats 📄  
 Text Format (.txt)  
+  ```
   TODO APP EXPORT - 2024-01-15 10:30:45  
   ==================================================  
   ID: 1  
@@ -69,12 +70,14 @@ Text Format (.txt)
   Created: 2024-01-15 09:15:32  
   Status: PENDING  
   ------------------------------
+  ```
   
 CSV Format (.csv)  
+  ```
   csvID,Description,Urgency,Created,Status  
   1,"Buy groceries",MEDIUM,2024-01-15 09:15:32,PENDING  
   2,"Submit report",CRITICAL,2024-01-15 09:20:15,COMPLETED  
-  
+  ```
 JSON Format (.json)  
 ```
 {  
