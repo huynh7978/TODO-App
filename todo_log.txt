@@ -1,7 +1,0 @@
-[2025-05-28 10:49:47] TodoApp initialized
-[2025-05-28 10:50:12] Added task [ID: 1] "Fix Gundam" [MEDIUM]
-[2025-05-28 10:50:54] Added task [ID: 2] "check for package" [HIGH]
-[2025-05-28 10:51:07] Added task [ID: 3] "kamen" [MEDIUM]
-[2025-05-28 10:51:16] Removed task [ID: 3] "kamen"
-[2025-05-28 10:51:56] Exported tasks to CSV: tasks.csv
-[2025-05-28 10:52:02] TodoApp terminated
