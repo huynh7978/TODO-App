@@ -61,20 +61,23 @@ Critical (4) - Urgent, high-priority tasks
 
 ## Export Formats 📄  
 Text Format (.txt)  
-TODO APP EXPORT - 2024-01-15 10:30:45  
-==================================================  
-ID: 1  
-Description: Buy groceries  
-Urgency: MEDIUM  
-Created: 2024-01-15 09:15:32  
-Status: PENDING  
-------------------------------
+  TODO APP EXPORT - 2024-01-15 10:30:45  
+  ==================================================  
+  ID: 1  
+  Description: Buy groceries  
+  Urgency: MEDIUM  
+  Created: 2024-01-15 09:15:32  
+  Status: PENDING  
+  ------------------------------
+  
 CSV Format (.csv)  
-csvID,Description,Urgency,Created,Status  
-1,"Buy groceries",MEDIUM,2024-01-15 09:15:32,PENDING  
-2,"Submit report",CRITICAL,2024-01-15 09:20:15,COMPLETED  
+  csvID,Description,Urgency,Created,Status  
+  1,"Buy groceries",MEDIUM,2024-01-15 09:15:32,PENDING  
+  2,"Submit report",CRITICAL,2024-01-15 09:20:15,COMPLETED  
+  
 JSON Format (.json)  
-json{  
+```
+{  
   "tasks": [  
     {  
       "id": 1,  
@@ -86,21 +89,19 @@ json{
   ],  
   "exported_at": "2024-01-15 10:30:45"  
 }  
-
+```
 ## Class Structure 🏗️  
-Task Class  
+**Task Class**  
+  Stores task information (ID, description, urgency, completion status, creation time)  
+  Provides comparison operators for sorting  
+  Handles time formatting and urgency string conversion  
 
-Stores task information (ID, description, urgency, completion status, creation time)  
-Provides comparison operators for sorting  
-Handles time formatting and urgency string conversion  
-
-Todo_App Class  
-
-Main application logic  
-Task management operations  
-File I/O operations  
-Logging functionality  
-Statistics calculation  
+**Todo_App Class**    
+  Main application logic  
+  Task management operations  
+  File I/O operations  
+  Logging functionality  
+  Statistics calculation  
 
 # Logging 📊  
 All actions are automatically logged to todo_log.txt with timestamps:  
