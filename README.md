@@ -124,7 +124,7 @@ The application includes robust error handling for:
 # License 📄  
 This project is open source and available under the MIT License.  
 
-#Support 💬  
+# Support 💬  
 If you encounter any issues or have questions:  
 
 Check the existing issues in the repository  
