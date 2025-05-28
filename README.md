@@ -18,14 +18,17 @@ A feature-rich command-line TODO application written in C++ that helps you manag
 - Standard C++ libraries  
 
 **Compilation**  
-```bash # Using g++ (recommended)  
+```
+bash # Using g++ (recommended)    
 g++ -std=c++11 -o todo_app TODO_App.cpp  
 ```
-``` # Or using clang++  
+```
+# Or using clang++  
 clang++ -std=c++11 -o todo_app TODO_App.cpp  
 ```
 **Running the Application**  
-```bash./todo_app  
+```
+./todo_app  
 ```
 ## Usage 📖  
 When you run the application, you'll see an interactive menu with the following options:  
