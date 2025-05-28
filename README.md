@@ -19,7 +19,7 @@ A feature-rich command-line TODO application written in C++ that helps you manag
 
 **Compilation**  
 ```
-bash # Using g++ (recommended)    
+# Using g++ (recommended)    
 g++ -std=c++11 -o todo_app TODO_App.cpp  
 ```
 ```
@@ -116,18 +116,10 @@ All actions are automatically logged to todo_log.txt with timestamps:
 # Error Handling 🛡️  
 The application includes robust error handling for:  
 
-Invalid user input  
-File I/O operations  
-Task ID validation  
-Empty task lists  
-
-# Contributing 🤝
-
-Fork the repository  
-Create a feature branch (git checkout -b feature/new-feature)  
-Commit your changes (git commit -am 'Add new feature')  
-Push to the branch (git push origin feature/new-feature)  
-Create a Pull Request  
+- Invalid user input  
+- File I/O operations  
+- Task ID validation  
+- Empty task lists  
 
 # License 📄  
 This project is open source and available under the MIT License.  
