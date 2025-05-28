@@ -1,7 +1,7 @@
-# TODO-App📝
+# **TODO-App**📝
 A feature-rich command-line TODO application written in C++ that helps you manage tasks with priority levels, timestamps, and multiple export formats.
 
-## Features ✨
+## **Features** ✨
 
 - Task Management: Add, remove, and mark tasks as completed  
 - Priority System: Four urgency levels (Low, Medium, High, Critical)  
@@ -12,7 +12,7 @@ A feature-rich command-line TODO application written in C++ that helps you manag
 - Interactive Menu: User-friendly command-line interface  
 - Filtering: Filter tasks by urgency level  
 
-## Getting Started 🚀  
+## **Getting Started** 🚀  
 **Prerequisites**  
 - C++ compiler with C++11 support (GCC, Clang, or MSVC)  
 - Standard C++ libraries  
@@ -30,7 +30,7 @@ clang++ -std=c++11 -o todo_app TODO_App.cpp
 ```
 ./todo_app  
 ```
-## Usage 📖  
+## **Usage** 📖  
 When you run the application, you'll see an interactive menu with the following options:  
 **Main Menu Options**  
 
@@ -93,7 +93,7 @@ JSON Format (.json)
   "exported_at": "2024-01-15 10:30:45"  
 }  
 ```
-## Class Structure 🏗️  
+## **Class Structure** 🏗️  
 **Task Class**  
   Stores task information (ID, description, urgency, completion status, creation time)  
   Provides comparison operators for sorting  
@@ -106,14 +106,14 @@ JSON Format (.json)
   Logging functionality  
   Statistics calculation  
 
-# Logging 📊  
+# **Logging** 📊  
 All actions are automatically logged to todo_log.txt with timestamps:  
 [2024-01-15 09:15:32] TodoApp initialized  
 [2024-01-15 09:16:45] Added task [ID: 1] "Buy groceries" [MEDIUM]  
 [2024-01-15 09:18:20] Completed task [ID: 1] "Buy groceries"  
 [2024-01-15 09:20:10] Exported tasks to CSV: tasks_backup.csv  
 
-# Error Handling 🛡️  
+# **Error Handling** 🛡️  
 The application includes robust error handling for:  
 
 - Invalid user input  
@@ -121,10 +121,10 @@ The application includes robust error handling for:
 - Task ID validation  
 - Empty task lists  
 
-# License 📄  
+# **License** 📄  
 This project is open source and available under the MIT License.  
 
-# Support 💬  
+# **Support** 💬  
 If you encounter any issues or have questions:  
 
 Check the existing issues in the repository  
